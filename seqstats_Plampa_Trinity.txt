@@ -1,0 +1,13 @@
+
+Plampa_Trinity.fasta
+-------------------------
+592764 sequences.
+668 average length.
+17411 maximum length.
+183 minimum length.
+N50 = 917
+396.2 Mb altogether (396185464 bp).
+0 ambiguous Mb. (0 bp, 0%)
+0 Mb of Ns. (0 bp, 0%)
+-------------------------
+

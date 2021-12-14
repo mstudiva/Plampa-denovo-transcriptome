@@ -1,0 +1,13 @@
+
+Plampa.fasta
+-------------------------
+220471 sequences.
+1261 average length.
+17411 maximum length.
+500 minimum length.
+N50 = 1536
+277.9 Mb altogether (277944908 bp).
+0 ambiguous Mb. (0 bp, 0%)
+0 Mb of Ns. (0 bp, 0%)
+-------------------------
+
