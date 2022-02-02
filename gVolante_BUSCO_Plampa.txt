@@ -1,0 +1,61 @@
+Your gVolante analysis 'Plampa' has finished.
+
+Click here to see the results.
+https://gvolante.riken.jp/script/result.cgi?202202030233-2DDMJE6LM96LJ8YH
+
+Or input JOB ID: 202202030233-2DDMJE6LM96LJ8YH to the result page.
+https://gvolante.riken.jp/results.html
+
+
+gVolante version: 2.0.0
+
+
+Summary of the Submitted Job:
+	Job ID:    202202030233-2DDMJE6LM96LJ8YH
+	Project name:    Plampa
+	Fasta file:    Plampa.fasta
+	Cut-off length for sequence statistics and composition:    1
+	Sequence type:    trans
+	Selected program:    BUSCO_v5
+	Selected ortholog set:    Metazoa
+
+
+Completeness Assessment Results:    
+	Total # of core genes queried:    954
+	# of core genes detected
+		Complete:    918 (96.23%)
+		Complete + Partial:    933 (97.80%)
+	# of missing core genes:    21 (2.20%)
+	Average # of orthologs per core genes:    4.27
+	% of detected core genes that have more than 1 ortholog:    89.00
+	Scores in BUSCO format:    C:96.2%[S:10.6%,D:85.6%],F:1.6%,M:2.2%,n:954
+
+	for details of these metrics, see
+	  BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.
+	  Simao FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM.
+	  Bioinformatics. 2015 Oct 1;31(19):3210-2.
+
+
+Length Statistics and Composition:
+	# of sequences:    220471
+	Total length (nt):    277944908
+	Longest sequence (nt):    17411
+	Shortest sequence (nt):    500
+	Mean sequence length (nt):    1261
+	Median sequence length (nt):    844
+	N50 sequence length (nt):    1536
+	L50 sequence count:    48921
+	# of sequences >   1K (nt):    88993 (40.4% of total number)
+	# of sequences >  10K (nt):    218 (0.1% of total number)
+	# of sequences > 100K (nt):    0 (0.0% of total number)
+	# of sequences >   1M (nt):    0 (0.0% of total number)
+	# of sequences >  10M (nt):    0 (0.0% of total number)
+	Base composition (%):    A:26.53, T:26.59, G:23.32, C:23.56, N:0.00, Other:0.00
+	GC-content (%):    46.88
+	# of sequences containing non-ACGTN (nt):    0
+
+
+gVolante Citation:
+	gVolante for standardizing completeness assessment of genome and transcriptome assemblies
+	Nishimura O, Hara Y, Kuraku S.
+	Bioinformatics. 2017 Nov 15;33(22):3635-3637.

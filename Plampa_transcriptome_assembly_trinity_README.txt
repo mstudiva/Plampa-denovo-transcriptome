@@ -292,4 +292,35 @@ N50 = 1536
 0 Mb of Ns. (0 bp, 0%)
 -------------------------
 
+
+#------------------------------
+## GC content with BBMap package
+
+scp the transcriptome to your computer and follow the BBMap installation instructions here: https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/installation-guide/
+
+sh bbmap/stats.sh in=Plampa.fasta
+A	C	G	T	N	IUPAC	Other	GC	GC_stdev
+0.2653	0.2356	0.2332	0.2659	0.0000	0.0000	0.0000	0.4688	0.0586
+
+
+#------------------------------
+## Transcriptome completeness with gVolante/BUSCO
+
+# Upload the transcriptomes to gVolante here: https://gvolante.riken.jp/analysis.html
+# Use a cutoff length of '1', sequence type of 'Coding/transcribed (nucleotide)', ortholog search pipeline of 'BUSCO v5', and ortholog set of 'Metazoa'
+
+Plampa.fasta
+-------------------------
+Completeness Assessment Results:
+	Total # of core genes queried:    954
+	# of core genes detected
+		Complete:    918 (96.23%)
+		Complete + Partial:    933 (97.80%)
+	# of missing core genes:    21 (2.20%)
+	Average # of orthologs per core genes:    4.27
+	% of detected core genes that have more than 1 ortholog:    89.00
+	Scores in BUSCO format:    C:96.2%[S:10.6%,D:85.6%],F:1.6%,M:2.2%,n:954
+-------------------------
+
+
 # Now follow the script 'Plampa_transcriptome_annotation_README' for generating annotation files for differential expression analysis
